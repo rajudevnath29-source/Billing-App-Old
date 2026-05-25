@@ -1,0 +1,32 @@
+{
+  "name": "billing-app-old",
+  "version": "1.0.0",
+  "description": "this is e-commerce billing app for learning purpose",
+  "main": "index.js",
+
+  "scripts": {
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd backend && node server.js",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajudevnath29-source/Billing-App-Old.git"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+
+  "bugs": {
+    "url": "https://github.com/rajudevnath29-source/Billing-App-Old/issues"
+  },
+
+  "homepage": "https://github.com/rajudevnath29-source/Billing-App-Old#readme",
+
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
